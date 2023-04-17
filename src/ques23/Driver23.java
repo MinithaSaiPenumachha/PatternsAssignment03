@@ -15,8 +15,8 @@ public class Driver23 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ImmutableClass o = new ImmutableClass("Hello", 10);
-		System.out.println("Original object: " + o);
+		ImmutableClass o = new ImmutableClass("Patterns", 10);
+		System.out.println("Frameworks: " + o);
 
 		// Create multiple threads to access the object concurrently
 		Thread a1 = new Thread(new MyRunnable(o));

@@ -46,11 +46,11 @@ public class Dog {
 	}
 	protected void finalize() throws Throwable {
 		// print message when object is garbage collected
-		System.out.println(name + " object is in garbage collection.");
+		System.out.println(name + " is in backyard.");
 	}
 	
 	public static void main(String args[]) {
-		Dog d = new Dog("Yang",4);
+		Dog d = new Dog("Fido",4);
 		d = null;
 		System.gc();
 		System.out.println("Done");
